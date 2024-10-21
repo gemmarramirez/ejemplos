@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Múltiplos de 3 hasta 60</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Calcular los múltiplos de 3 hasta 60</h2>
+        
+        <div id="resultadoWhile"></div>
+        <div id="resultadoFor"></div>
+    </div>
+
+    <script>
+        // Solución usando WHILE
+        document.write("Los múltiplos de 3 hasta el 60 usando WHILE son: <br />");
+        var n = 0;
+        while (n <= 60) {
+            document.write(n + " ");
+            n = n + 3;
+        }
+
+        document.write("<br/><br/>");
+
+        // Solución usando FOR
+        document.write("Los múltiplos de 3 hasta el 60 usando FOR son: <br/>");
+        for (n = 0; n <= 60; n = n + 3) {
+            document.write(n + " ");
+        }
+    </script>
+
+</body>
+</html>

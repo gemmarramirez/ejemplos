@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del título */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos de los botones */
+.color-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#btn1 {
+    background-color: #ff4d4d;
+}
+
+#btn2 {
+    background-color: #4caf50;
+}
+
+#btn3 {
+    background-color: #4da6ff;
+}
+
+/* Hover effects */
+.color-btn:hover {
+    opacity: 0.8;
+}
+
+/* Estilo de la caja */
+#caja {
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Efecto de transición del color */
+#caja {
+    transition: background-color 0.3s ease;
+}

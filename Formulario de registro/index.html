@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="style.css"> <!-- Enlace al archivo CSS -->
+    <script src="script.js" defer></script> <!-- Enlace al archivo JS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de nuevo usuario</h1>
+        <form id="formulario">
+            <fieldset>
+                <legend>Información de usuario</legend>
+                <label for="nombre">Nombre de usuario: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre de usuario" required>
+                <br><br>
+                <label for="clave">Introduzca un password: </label>
+                <input type="password" id="clave" name="clave" placeholder="Introduce tu contraseña" required>
+                <br><br>
+                <label for="reclave">Vuelva a introducir el password: </label>
+                <input type="password" id="reclave" name="reclave" placeholder="Repite tu contraseña" required>
+                <br><br>
+
+                <h3>Verificación de suma:</h3>
+                <input type="text" id="a" name="a" readonly="readonly" size="3">
+                +
+                <input type="text" id="b" name="b" readonly="readonly" size="3">
+                <br><br>
+                <label for="resultado">Introduzca el resultado de la suma: </label>
+                <input type="text" id="resultado" name="resultado" placeholder="Resultado de la suma">
+                <br><br>
+                <input type="button" id="enviar" name="enviar" value="Enviar">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

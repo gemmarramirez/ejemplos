@@ -1,0 +1,20 @@
+Partiendo de que el área del triángulo se calcula de la siguiente forma: "Es la base por la altura entre 2" Realizamos el siguiente pseudocódigo:
+
+Algoritmo CalculaSuperficieTriangulo
+	Var base_tri, altura_tri, area_tri: real
+Inicio
+	Escribir “Calculo de la superficie del triángulo”;
+	Escribir “Introduzca la base del triángulo: “;
+	Leer base_tri;
+	Escribir “Introduzca la altura del triángulo: “;
+	Leer altura_tri;
+	Escribir (“La superficie del triángulo es: “,
+(base_tri*altura_tri)/2);
+Fin
+
+
+Explicación: 
+1. El algoritmo comienza declarando tres variables: "base_tri", "altura_tri" y "area_tri", que almacenarán la base, la altura y el área del triángulo respectivamente. Todas son de tipo real, lo que significa que puede contener números decimales. 
+2. Entrada de datos: Se pide al usuario que introduzca la base y la altura del triángulo a través de mensajes en pantalla como "Introduzca la base del triángulo" y "Introduzca la altura del triangulo". Estos valores se almacenan en "base_tri" y "altura_tri".
+3. Cálculo del área: el área del triángulo se calcula usando la formula: La base por la altura entre 2. Esta formula toma la base y la altura, los multiplica y divide el resultado entre 2. 
+4. Salida de datos: El resultado (área) se muestra al usuario con el mensaje "La superficie del triángulo es: ", seguido del valor calculado. 
