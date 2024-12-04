@@ -1,0 +1,42 @@
+1. Desde un sistema operativo Linux realice las siguientes acciones, siempre trabajando desde un terminal:
+a. Acceda a una terminal: Usa el acceso directo o Ctrl + Alt + T.
+b. Compruebe en qué ruta nos encontramos: Comando pwd.
+c. Borre la pantalla del terminal: Comando clear.
+d. Cree una nueva carpeta llamada 'servidor': Comando mkdir servidor.
+e. Dentro de 'servidor' cree las subcarpetas 'static', 'images', 'js', 'css' y 'datos': Usa cd servidor y luego mkdir static images js css datos.
+f. Mostrar que se han creado: Comando ls.
+g. Mueva la carpeta 'datos' a 'static': Comando mv datos static/.
+h. Cambie el nombre de 'datos' por 'pdf': Comando mv static/datos static/pdf.
+i. Muestre los permisos de 'pdf': Comando ls -l static/pdf.
+j. Modifique los permisos de 'pdf': Comando chmod 770 static/pdf.
+k. Borre definitivamente la carpeta 'pdf': Comando rm -r static/pdf.
+2. Se creará una conexión a un servidor FTP anónimo con FileZilla:
+a. Crear un nuevo sitio 'ConexionCICA': Archivo > Gestor de sitios > Nuevo sitio.
+b. Configurar el sitio: Servidor ftp.cica.es, puerto 21, usuario anonymous, contraseña anonymous.
+c. Conectar al servidor FTP: Selecciona 'ConexionCICA' en el gestor y haz clic en 'Conectar'.
+d. Accede a la ruta /mirrors/Linux/ubuntu/releases: Usa el panel derecho para navegar.
+e. Descargar el archivo 'robots.txt': Haz clic derecho en el archivo y selecciona 'Descargar'.
+f. Conectar en modo texto: Comando ftp ftp.cica.es.
+g. Mostrar contenido del servidor: Comando ls.
+h. Mostrar comandos disponibles: Comando help.
+i. Subir un archivo: Comando put midoc.pdf midocsubido.pdf.
+j. Desconectar del servidor: Comando quit.
+3. Identifique la información del código HTML proporcionado:
+a. Título de la página: Identificado en <title>.
+b. Palabras clave: <meta name='keywords'>.
+c. Información de imágenes: Atributo alt en <img>.
+d. Descripción: <meta name='description'>.
+e. Programa usado: <meta name='generator'>.
+4. Comente ventajas y desventajas de usar metabuscadores:
+Ventajas: Mayor rango de búsqueda, más resultados, información combinada.
+Desventajas: No distingue sintaxis, tiempos más lentos, resultados no siempre claros.
+5. Instalación de complementos en Firefox:
+a. Instalar 'Textise': Busca e instala desde las extensiones de Firefox.
+b. Visualizar www.abc.es en texto: Usa el botón de Textise en la barra.
+c. Instalar Pixel Perfect: Instala Firebug primero, luego Pixel Perfect.
+d. Modificar imagen de Google: Usa Firebug para cambiar la ruta de la imagen.
+6. Instalación de complementos en Chrome:
+a. Instalar PageSpeedInsights: Busca en el Web Store de Chrome.
+b. Medir rendimiento de www.amazon.es: Usa la pestaña 'PageSpeed' en las herramientas de desarrollo.
+c. Instalar 'Open SEO Stats': Busca en el Web Store e instálalo.
+d. Consultar pagerank de www.amazon.es: Haz clic en 'Open SEO Stats'.
